@@ -1,0 +1,8 @@
+=== H2 PILOT v2 RESULT (exploratory, underpowered) ===
+collapse TRAIN   base=0.800  ArmA=1.000  ArmB=0.700   (sanity: did the signal take?)
+collapse HELDOUT base=0.667  ArmA(consensus-filter)=1.000  ArmB(paraconsistent)=0.333
+helpfulness      ArmA=-2.092  ArmB=-2.265  (parity if similar)
+SANITY: signal TOOK on train (ArmA train collapse 0.800->1.000; ArmB 0.700 stays low).
+        -> mechanism demonstrated in-sample; held-out is the generalization question.
+HELD-OUT DIRECTION: Arm B lowers cultural collapse by 0.667 vs Arm A -> consistent with H2 (pilot).
+n: train=10, held-out=6 contested items -> mechanism illustration, not effect size.

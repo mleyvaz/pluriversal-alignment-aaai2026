@@ -1,0 +1,21 @@
+{
+  "results": {
+    "base": {
+      "collapse_train": 0.8,
+      "collapse": 0.6666666666666666,
+      "helpfulness": -2.7510161995887756
+    },
+    "A": {
+      "collapse_train": 1.0,
+      "collapse": 1.0,
+      "helpfulness": -2.092486098408699
+    },
+    "B": {
+      "collapse_train": 0.7,
+      "collapse": 0.3333333333333333,
+      "helpfulness": -2.2645085901021957
+    }
+  },
+  "n_eval": 6,
+  "base": "Qwen/Qwen2.5-0.5B-Instruct"
+}
