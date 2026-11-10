@@ -4,58 +4,139 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Aligning with Whom? — AAAI FSS 2026</title>
+  <meta name="description" content="AAAI 2026 Fall Symposium 'Aligning with Whom?' held 5–7 November 2026 in Arlington, VA. Proceedings (7 papers with DOI), program and photos.">
   <style>
-    body { font-family: Georgia, serif; max-width: 860px; margin: 0 auto; padding: 2em; color: #1a1a1a; line-height: 1.7; }
+    body { font-family: Georgia, serif; max-width: 920px; margin: 0 auto; padding: 2em 16px; color: #1a1a1a; line-height: 1.7; background: #fff; }
     h1 { font-size: 1.6em; color: #1a3a6b; border-bottom: 2px solid #1a3a6b; padding-bottom: 0.4em; }
-    h2 { font-size: 1.1em; color: #1a3a6b; margin-top: 2em; }
-    .badge { display: inline-block; background: #1a3a6b; color: white; padding: 0.2em 0.7em; border-radius: 3px; font-size: 0.85em; font-family: sans-serif; }
-    .badge.accepted { background: #1e6b3a; }
+    h2 { font-size: 1.15em; color: #1a3a6b; margin-top: 2.2em; }
+    a { color: #1a3a6b; }
+    .badge { display: inline-block; background: #1a3a6b; color: white; padding: 0.2em 0.7em; border-radius: 3px; font-size: 0.85em; font-family: sans-serif; margin: 0 0.3em 0.3em 0; }
+    .badge.done { background: #1e6b3a; }
     .meta { font-family: sans-serif; font-size: 0.9em; color: #555; margin-bottom: 1.5em; }
+    .hero { width: 100%; max-height: 460px; object-fit: cover; border-radius: 6px; margin: 0.5em 0 0.3em; }
+    .caption { font-family: sans-serif; font-size: 0.8em; color: #666; margin: 0 0 1.5em; }
+    ol.papers { padding-left: 1.3em; }
+    ol.papers li { margin-bottom: 0.9em; }
+    .au { color: #444; }
+    .doi { font-family: sans-serif; font-size: 0.85em; }
+    .gallery { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 10px; }
+    .gallery figure { margin: 0; }
+    .gallery img { width: 100%; height: 170px; object-fit: cover; object-position: center 25%; border-radius: 4px; display: block; }
+    .gallery figcaption { font-family: sans-serif; font-size: 0.75em; color: #555; margin-top: 0.3em; line-height: 1.35; }
     .organizers td { padding: 0.4em 1em 0.4em 0; vertical-align: top; }
-    .topics li { margin-bottom: 0.4em; }
-    .dates td { padding: 0.3em 1.2em 0.3em 0; }
-    .dates td:first-child { font-weight: bold; white-space: nowrap; }
+    .program td { padding: 0.3em 1.2em 0.3em 0; vertical-align: top; }
+    .program td:first-child { font-weight: bold; white-space: nowrap; font-family: sans-serif; font-size: 0.9em; }
+    .topics li { margin-bottom: 0.3em; }
     footer { margin-top: 3em; font-size: 0.8em; color: #888; border-top: 1px solid #ddd; padding-top: 1em; }
+    @media (max-width: 560px) { .program td:first-child { white-space: normal; } }
   </style>
 </head>
 <body>
 
 <p class="meta">
   <span class="badge">AAAI Fall Symposium Series 2026</span>
-  <span class="badge accepted">Accepted Symposium</span>
-  &nbsp; November 5–7, 2026 &nbsp;|&nbsp; Westin Arlington Gateway, Arlington, VA, USA
+  <span class="badge done">Held · November 5–7, 2026</span>
+  <span class="badge done">Proceedings published</span><br>
+  Westin Arlington Gateway, Arlington, VA, USA
 </p>
 
 <h1>Aligning with Whom?<br>
 <span style="font-size:0.75em; font-weight:normal;">Pluriversal and Paraconsistent Frameworks for Value Alignment in AI Systems</span>
 </h1>
 
+<img class="hero" src="photos/fss26_03_keynote_four_values.jpg" alt="Dr. Lorenzo J. Cevallos-Torres giving the opening keynote of the symposium, in front of a slide titled 'Four values instead of one action'">
+<p class="caption">Opening keynote by Dr. Lorenzo J. Cevallos-Torres, on-site chair of the symposium (Arlington, 5 November 2026).</p>
+
 <p>
 Current value alignment methods — RLHF, Constitutional AI, DPO — assume that
 human values converge to a single utility function when elicited at scale.
-Empirically, they do not. Irreducible contradictions are resolved by majority vote,
-silencing minority epistemologies and Global South value frameworks at the moment
-of aggregation. <strong>This symposium asks: aligning with whom?</strong>
+Irreducible disagreements are often resolved by majority vote, which can silence
+minority positions at the moment of aggregation. <strong>This symposium asked: aligning with whom?</strong>
+It brought together work from formal logic, AI safety, reward modeling and
+value elicitation on paraconsistent and pluriversal alternatives to enforced convergence.
 </p>
 
+<h2>Proceedings</h2>
 <p>
-We bring together researchers from formal logic, AI safety, cross-cultural value
-elicitation, and Global South AI governance to examine paraconsistent and pluriversal
-alternatives to enforced convergence — and to build a shared research agenda
-for the emerging field of pluralistic AI alignment.
+The seven accepted papers are published, open access, in the
+<a href="https://ojs.aaai.org/index.php/AAAI-SS/issue/view/747"><em>Proceedings of the AAAI Symposium Series</em>, Vol. 10, No. 1 (2026)</a>, pp. 2–55.
 </p>
+<ol class="papers">
+  <li><strong>When Alignment Erases Disagreement: Preference Collapse and a Four-Valued Alternative for LLMs.</strong><br>
+    <span class="au">Aizierjiang Aiersilan (The George Washington University)</span> · pp. 2–9 ·
+    <a class="doi" href="https://doi.org/10.1609/aaaiss.v10i1.43384">doi:10.1609/aaaiss.v10i1.43384</a></li>
+  <li><strong>Logic for Interactive Consistency: Paraconsistency, Norms, and Accountable Large Language Models.</strong><br>
+    <span class="au">Thomas Arnold, Matthias Scheutz (Tufts University)</span> · pp. 10–17 ·
+    <a class="doi" href="https://doi.org/10.1609/aaaiss.v10i1.43385">doi:10.1609/aaaiss.v10i1.43385</a></li>
+  <li><strong>Aligning with Whom in Automated Trading? A Belnap–Dunn Four-Valued Decision Layer for Financial Forecasting Pipelines.</strong><br>
+    <span class="au">Lorenzo Cevallos-Torres, Rosangela Caicedo-Quiroz, Julio Barzola-Monteses, Roberto Tolozano-Benites (Universidad Bolivariana del Ecuador / Universidad de Guayaquil)</span> · pp. 18–24 ·
+    <a class="doi" href="https://doi.org/10.1609/aaaiss.v10i1.43386">doi:10.1609/aaaiss.v10i1.43386</a></li>
+  <li><strong>The Pluralism Gate: When Should AI Agents Decide Under Irreducible Value Conflict?</strong><br>
+    <span class="au">Srimonti Dutta (IIT Guwahati), Akshata Kishore Moharir (University of Maryland), Apoorva Phadnis</span> · pp. 25–32 ·
+    <a class="doi" href="https://doi.org/10.1609/aaaiss.v10i1.43387">doi:10.1609/aaaiss.v10i1.43387</a></li>
+  <li><strong>Aligning with Whom? A Neutrosophic Paraconsistent Framework for Value Alignment under Irreducible Pluralism.</strong><br>
+    <span class="au">Maikel Leyva-Vázquez, Dayron Rumbaut Rangel, Lorenzo Cevallos-Torres, Alexis Matheu Pérez, Florentin Smarandache</span> · pp. 33–39 ·
+    <a class="doi" href="https://doi.org/10.1609/aaaiss.v10i1.43388">doi:10.1609/aaaiss.v10i1.43388</a></li>
+  <li><strong>Is the Ladder Measurable? Graded Paraconsistency Tested on Eight Statements and Then on a Bank.</strong><br>
+    <span class="au">Florentin Smarandache, Maikel Leyva-Vázquez</span> · pp. 40–47 ·
+    <a class="doi" href="https://doi.org/10.1609/aaaiss.v10i1.43389">doi:10.1609/aaaiss.v10i1.43389</a></li>
+  <li><strong>Moral Foundations Reward Modeling for Pluriversal LLM Alignment.</strong><br>
+    <span class="au">Zhangfei Yang (The George Washington University)</span> · pp. 48–55 ·
+    <a class="doi" href="https://doi.org/10.1609/aaaiss.v10i1.43390">doi:10.1609/aaaiss.v10i1.43390</a></li>
+</ol>
 
-<h2>Call for Participation</h2>
+<h2>Program highlights</h2>
+<table class="program">
+  <tr><td>Thu, Nov 5</td><td>Opening keynote — Dr. Lorenzo J. Cevallos-Torres, <em>Aligning with Whom When the System Must Act? Four-Valued Decision Layers from Trading Pipelines to Classrooms</em>. Poster session (papers 1229, 3149, 6958).</td></tr>
+  <tr><td>Fri, Nov 6</td><td>Paper presentations (Tufts, IIT Guwahati / Maryland, GWU, UBE / UNM / UBO) and open discussion; closing of the symposium.</td></tr>
+</table>
+
+<h2>Photos</h2>
+<div class="gallery">
+  <figure><a href="photos/fss26_01_chair_on_site.jpg"><img src="photos/fss26_01_chair_on_site.jpg" alt="Lorenzo Cevallos-Torres at the AAAI 2026 Fall Symposium Series sign" loading="lazy"></a><figcaption>On-site chair Lorenzo J. Cevallos-Torres at the venue.</figcaption></figure>
+  <figure><a href="photos/fss26_02_keynote.jpg"><img src="photos/fss26_02_keynote.jpg" alt="Opening keynote, title slide" loading="lazy"></a><figcaption>Opening keynote.</figcaption></figure>
+  <figure><a href="photos/fss26_04_arnold_tufts.jpg"><img src="photos/fss26_04_arnold_tufts.jpg" alt="Thomas Arnold presenting" loading="lazy"></a><figcaption>Thomas Arnold (Tufts): <em>Logic for Interactive Consistency</em>.</figcaption></figure>
+  <figure><a href="photos/fss26_05_pluralism_gate.jpg"><img src="photos/fss26_05_pluralism_gate.jpg" alt="Presentation of The Pluralism Gate" loading="lazy"></a><figcaption><em>The Pluralism Gate</em>.</figcaption></figure>
+  <figure><a href="photos/fss26_06_aiersilan_gwu.jpg"><img src="photos/fss26_06_aiersilan_gwu.jpg" alt="Presentation from The George Washington University" loading="lazy"></a><figcaption>Presentation from The George Washington University.</figcaption></figure>
+  <figure><a href="photos/fss26_07_paper_6958.jpg"><img src="photos/fss26_07_paper_6958.jpg" alt="Presentation of paper 6958" loading="lazy"></a><figcaption><em>A Neutrosophic Paraconsistent Framework for Value Alignment</em>.</figcaption></figure>
+  <figure><a href="photos/fss26_08_paper_1229.jpg"><img src="photos/fss26_08_paper_1229.jpg" alt="Presentation of paper 1229" loading="lazy"></a><figcaption><em>Is the Ladder Measurable?</em></figcaption></figure>
+  <figure><a href="photos/fss26_09_posters.jpg"><img src="photos/fss26_09_posters.jpg" alt="Posters of the symposium" loading="lazy"></a><figcaption>Posters of the symposium.</figcaption></figure>
+  <figure><a href="photos/fss26_10_poster_3149.jpg"><img src="photos/fss26_10_poster_3149.jpg" alt="Poster of the automated trading paper" loading="lazy"></a><figcaption>Poster: <em>Aligning with Whom in Automated Trading?</em></figcaption></figure>
+  <figure><a href="photos/fss26_11_poster_session.jpg"><img src="photos/fss26_11_poster_session.jpg" alt="At the poster session" loading="lazy"></a><figcaption>Poster session, 5 November.</figcaption></figure>
+  <figure><a href="photos/fss26_12_reception.jpg"><img src="photos/fss26_12_reception.jpg" alt="Participants of the Fall Symposium Series" loading="lazy"></a><figcaption>AAAI Fall Symposium Series 2026, Arlington.</figcaption></figure>
+</div>
+
+<h2>Organizing Committee</h2>
+<table class="organizers">
+  <tr>
+    <td><strong>Dr. Maikel Leyva-Vázquez</strong> (Chair)</td>
+    <td>Universidad Bolivariana del Ecuador / Universidad de Guayaquil, Ecuador</td>
+  </tr>
+  <tr>
+    <td><strong>Dr. Lorenzo J. Cevallos-Torres</strong> (On-site chair)</td>
+    <td>Universidad Bolivariana del Ecuador / Universidad de Guayaquil, Ecuador</td>
+  </tr>
+  <tr>
+    <td><strong>Prof. Florentin Smarandache</strong></td>
+    <td>University of New Mexico, USA</td>
+  </tr>
+  <tr>
+    <td><strong>Dr. Alexis Matheu Pérez</strong></td>
+    <td>Universidad Bernardo O'Higgins, Chile</td>
+  </tr>
+</table>
+
+<h2>Acknowledgments</h2>
 <p>
-We invite <strong>position papers (2–4 pages)</strong> and <strong>full papers
-(6–8 pages)</strong> in AAAI two-column format, on the topics below. Submissions
-are handled through the AAAI Fall Symposium Series EasyChair site; submission
-dates follow the official AAAI FSS-26 call for participation. For questions
-about scope or fit, write to
-<a href="mailto:mleyvaz@gmail.com">mleyvaz@gmail.com</a>.
+We thank the <strong>Association for the Advancement of Artificial Intelligence (AAAI)</strong>
+and the Fall Symposium Series team for hosting the symposium and publishing the proceedings,
+all authors and participants for their work, and Mgtr. Rosa Inés Hernández Magallanes
+(Universidad Bolivariana del Ecuador) for her support during the sessions.
+Special thanks to Dr. Lorenzo J. Cevallos-Torres, who chaired the symposium in Arlington
+and gave the opening keynote when the chair could not travel.
 </p>
 
-<h2>Topics of Interest</h2>
+<h2>Original scope</h2>
 <ul class="topics">
   <li>Formal frameworks for value indeterminacy: paraconsistent, neutrosophic, and plithogenic logic</li>
   <li>The majority-vote problem in Constitutional AI and alternatives</li>
@@ -63,61 +144,21 @@ about scope or fit, write to
   <li>Global South perspectives on AI alignment and governance</li>
   <li>Culturally sensitive evaluation benchmarks for aligned LLMs</li>
   <li>Uncertainty quantification and epistemic humility in large language models</li>
-  <li>Pedagogy of indeterminacy: AI literacy across epistemically diverse communities</li>
 </ul>
 
-<h2>Key Dates</h2>
-<table class="dates">
-  <tr><td>2026</td><td>Call for participation — submissions via the AAAI FSS-26 EasyChair site (dates per the official AAAI call)</td></tr>
-  <tr><td>Oct 2026</td><td>Registration through AAAI (all participants and organizers register via AAAI)</td></tr>
-  <tr><td>Nov 5–7, 2026</td><td>Symposium — Westin Arlington Gateway, Arlington, Virginia</td></tr>
-</table>
-
-<h2>Format</h2>
+<h2>Related materials</h2>
 <p>
-The 2.5-day format (Thursday–Saturday) combines paper presentations, two
-keynote-anchored panels, afternoon working groups on Day 2, and a synthesis
-plenary on Day 3 morning. Target size: <strong>45–60 participants</strong>.
-All sessions are in-person; a remote livestream can be arranged upon request.
-</p>
-
-<h2>Keynote</h2>
-<p>
-<strong>Prof. Florentin Smarandache</strong> (University of New Mexico) —
-<em>Paraconsistent Logic as a Formal Foundation for Pluriversal Alignment</em>.
-Additional keynotes to be announced.
-</p>
-
-<h2>Organizing Committee</h2>
-<table class="organizers">
-  <tr>
-    <td><strong>Dr. Maikel Leyva-Vázquez</strong> (Chair)</td>
-    <td>Universidad Bolivariana del Ecuador / Universidad de Guayaquil, Ecuador<br>
-        EiC <em>Neutrosophic Sets and Systems</em> | Director, ALCN</td>
-  </tr>
-  <tr>
-    <td><strong>Prof. Florentin Smarandache</strong></td>
-    <td>University of New Mexico, USA<br>
-        Founder, neutrosophic set theory and neutrosophic logic</td>
-  </tr>
-  <tr>
-    <td><strong>[Third co-chair TBC]</strong></td>
-    <td>To be announced</td>
-  </tr>
-</table>
-
-<h2>Contact</h2>
-<p>
-For inquiries about participation:
-<a href="mailto:mleyvaz@gmail.com">mleyvaz@gmail.com</a><br>
-For AAAI administrative questions:
-<a href="mailto:fsschairs@aaai.org">fsschairs@aaai.org</a>
+Preprint (extended version of paper 6958):
+<a href="https://www.preprints.org/manuscript/202607.2190">Preprints.org 202607.2190</a> ·
+code and pilot data: <a href="https://github.com/mleyvaz/pluriversal-alignment-aaai2026">GitHub repository</a>.<br>
+Contact: <a href="mailto:mleyvaz@gmail.com">mleyvaz@gmail.com</a>
 </p>
 
 <footer>
   AAAI 2026 Fall Symposium Series —
   <a href="https://aaai.org/conference/fall-symposia/">aaai.org/conference/fall-symposia/</a><br>
-  This page: <a href="https://mleyvaz.github.io/pluriversal-alignment-aaai2026">mleyvaz.github.io/pluriversal-alignment-aaai2026</a>
+  This page: <a href="https://mleyvaz.github.io/pluriversal-alignment-aaai2026">mleyvaz.github.io/pluriversal-alignment-aaai2026</a> ·
+  Chair's homepage: <a href="https://mleyvaz.github.io/">mleyvaz.github.io</a>
 </footer>
 
 </body>
